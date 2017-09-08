@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinTestAgain"
+             xmlns:caro="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             xmlns:forms="using:Xamarin.Forms"
+             x:Class="XamarinTestAgain.MainPage">
+
+   <!--<caro:CarouselView ItemsSource="{Binding Items1}">
+      <caro:CarouselView.ItemTemplate>
+         <DataTemplate>
+            <Label Text="{Binding }" />
+         </DataTemplate>
+      </caro:CarouselView.ItemTemplate>
+   </caro:CarouselView>-->
+
+   <ScrollView Orientation="Vertical">
+      <ScrollView Orientation="Horizontal">
+         <StackLayout>
+            
+         </StackLayout>
+      </ScrollView>
+   </ScrollView>
+
+   <!--<caro:CarouselView></caro:CarouselView>-->
+
+   <!--<Label Text="{Binding TestText}"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />-->
+
+   <!--<StackLayout Orientation="Vertical"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+
+      
+      -->
+   <!--<ScrollView Orientation="Vertical">
+         -->
+   <!--<Carous  ItemsSource="{Binding Items1}">
+            <ListView.p></ListView.p>
+         </Carous>-->
+   <!--
+      </ScrollView>
+      <ScrollView Orientation="Vertical">
+         <ListView ItemsSource="{Binding Items2}" />
+      </ScrollView>
+      <ScrollView Orientation="Vertical">
+         <ListView ItemsSource="{Binding Items3}" />
+      </ScrollView>-->
+   <!--
+   </StackLayout>-->
+
+</ContentPage>
